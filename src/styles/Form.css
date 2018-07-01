@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+  margin: 5%;
+}
+
+form {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+form label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+form input {
+  outline: none;
+  border-style: none none solid none;
+  border-color: rgb(28, 30, 35);
+  border-width: 1px;
+  background-color: rgb(240, 240, 240);
+  color: rgb(28, 30, 35);
+  font-family: 'Open Sans', sans-serif;
+  text-transform: capitalize;
+  font-size: 1em;
+  letter-spacing: 2px;
+  margin-right: 1.5em;
+  padding: 10px;
+}
+
+form ::placeholder {
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(28, 30, 35);
+  opacity: 0.5;
+}
+
+form button {
+  outline: none;
+  border: 1px solid rgb(28, 30, 35);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.8em;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  background-color: rgb(28, 30, 35);
+  color: rgb(240, 240, 240);
+}
+
+form button:hover {
+  background-color: rgb(240, 240, 240);
+  color: rgb(28, 30, 35);
+  border: 1px solid rgb(28, 30, 35);
+  cursor: pointer;
+}

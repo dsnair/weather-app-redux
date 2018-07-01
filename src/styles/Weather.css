@@ -1,0 +1,9 @@
+.weather {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin: 5%;
+}
