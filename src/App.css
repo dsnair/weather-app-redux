@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 34, 97);
+  color: rgb(240, 240, 240);
+  height: 5vh;
+  width: 100vw;
+}
