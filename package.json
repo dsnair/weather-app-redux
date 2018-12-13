@@ -2,8 +2,10 @@
   "name": "weather-app-redux",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://dsnair.github.io/weather-app-redux/",
   "dependencies": {
     "@material-ui/core": "^3.6.2",
+    "gh-pages": "^2.0.1",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^6.0.0",
@@ -14,6 +16,14 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
